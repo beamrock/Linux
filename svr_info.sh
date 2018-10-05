@@ -31,7 +31,9 @@ echo "Hyper-threading Y/N" >> $target
 cat /proc/cpuinfo | egrep 'siblings|cpu cores' | head -2 >> $target
 echo >> $target
 
+echo "Processor all info" >> $target
 cat /proc/cpuinfo >> $target
+echo >> $target
 
 echo "--------------------------------------------------------------------------" >> $target
 echo "CPU Bit Check" >> $target
