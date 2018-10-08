@@ -1,4 +1,5 @@
 #!/bin/bash
+#저장소 복제완료2
 
 target=/root/script/svr_info_$HOSTNAME.`date +%Y%m%d`.txt
 
